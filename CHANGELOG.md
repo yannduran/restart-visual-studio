@@ -16,4 +16,4 @@ on the official Visual Studio extension gallery.
 **2016-08-08**
 
 - [x] Restart VisualStudio
-- [x] Restart Visual Studio As Administrator
+- [x] Restart Visual Studio As Admin

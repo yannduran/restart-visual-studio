@@ -4,17 +4,22 @@
   <favorites>
     <Favorite>
       <name>Github Repo</name>
-      <absolutePath>https://github.com/yannduran/missing-solution-commands</absolutePath>
+      <absolutePath>https://github.com/yannduran/restart-visual-studio</absolutePath>
+      <viewKind>External Document</viewKind>
+    </Favorite>
+    <Favorite>
+      <name>Github Wiki</name>
+      <absolutePath>https://github.com/yannduran/restart-visual-studio/wiki</absolutePath>
       <viewKind>External Document</viewKind>
     </Favorite>
     <Favorite>
       <name>Github.io Page</name>
-      <absolutePath>http://yannduran.github.io/missing-solution-commands</absolutePath>
+      <absolutePath>http://yannduran.github.io/restart-visual-studio</absolutePath>
       <viewKind>External Document</viewKind>
     </Favorite>
     <Favorite>
       <name>Appveyor Project</name>
-      <absolutePath>https://ci.appveyor.com/project/YannDuran/missing-solution-commands</absolutePath>
+      <absolutePath>https://ci.appveyor.com/project/YannDuran/restart-visual-studio</absolutePath>
       <viewKind>External Document</viewKind>
     </Favorite>
     <Favorite>

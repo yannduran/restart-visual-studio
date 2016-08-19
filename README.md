@@ -1,7 +1,6 @@
 # Yann's Essentials - Restart Visual Studio
 
-<!-- Replace this badge with your own-->
-<!--[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)-->
+[![Build status](https://ci.appveyor.com/api/projects/status/ghwvajcd2wifg4cm/branch/develop?svg=true)](https://ci.appveyor.com/project/YannDuran/restart-visual-studio/branch/develop)
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
 Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/b0cbfde4-9b7a-4a8e-96d9-a689d37b2279)
@@ -30,7 +29,7 @@ To restart Visual Studio **without** this extension, you would have to:
 
 To restart Visual Studio **using** this extension:
 
->- Click the *Restart Visual Studio* button on the *Luminous Essentials Toolbar* 
+>- Click the *Restart Visual Studio* button on the *Yann's Essentials Toolbar* 
 (if you've enabled the toolbar)
 
 
@@ -62,7 +61,7 @@ you would have to:
 
 To restart Visual Studio as administrator **using** this extension:
 
->- Click the *Restart Visual Studio* button on the *Luminous Essentials Toolbar* 
+>- Click the *Restart Visual Studio* button on the *Yann's Essentials Toolbar* 
 (if you've enabled the toolbar)
 
 ><img src="art/Restart (elevated).png" alt="Restart (as Admin)" />

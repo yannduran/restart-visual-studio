@@ -4,7 +4,7 @@
     <Identity Id="YD.RestartVisualStudio" Version="0.1.1" Language="en-US" Publisher="Yann Duran" />
     <DisplayName>Yann's Essentials - Restart Visual Studio</DisplayName>
     <Description xml:space="preserve">The simplest way of restarting VIsual Studio on demand (normal and elevated).</Description>
-    <MoreInfo>http://yannduran.github.io/missing-solution-commands</MoreInfo>
+    <MoreInfo>https://yannduran.github.io/restart-visual-studio/</MoreInfo>
     <License>https://github.com/yannduran/restart-visual-studio/blob/master/LICENSE</License>
     <GettingStartedGuide>https://github.com/yannduran/restart-visual-studio/blob/master/README.md</GettingStartedGuide>
     <ReleaseNotes>https://github.com/yannduran/restart-visual-studio/blob/master/CHANGELOG.md</ReleaseNotes>
