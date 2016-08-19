@@ -4,36 +4,20 @@
   <Extern href="stdidcmd.h"/>
   <Extern href="vsshlids.h"/>
   <Include href="KnownImageIds.vsct"/>
+  <Include href="YannsEssentials.vsct"/>
 
   <Commands package="RestartVisualStudioPackage">
     <Groups>
-      <Group guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" priority="0x0000" />
-
       <Group guid="RestartVisualStudioCommandSet" id="RestartGroup" priority="0x0000" />
       <Group guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x0000" />
     </Groups>
 
     <Menus>
-      <Menu guid="RestartVisualStudioCommandSet" id="YannsEssentialsToolbar" type="Toolbar" priority="0x9999">
-        <CommandFlag>AlwaysCreate</CommandFlag>
-        <Strings>
-          <ButtonText>Yann's Essentials</ButtonText>
-        </Strings>
-      </Menu>
-
-      <Menu guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" type="Menu" priority="0x0700">
-        <CommandFlag>AlwaysCreate</CommandFlag>
-        <Strings>
-          <ButtonText>Yann's Essentials</ButtonText>
-        </Strings>
-      </Menu>
-
       <Menu guid="RestartVisualStudioCommandSet" id="RestartDropDown" type="MenuController" priority="0x0000">
         <Strings>
           <ButtonText>Restart Commands</ButtonText>
         </Strings>
       </Menu>
-
     </Menus>
 
     <Buttons>
@@ -61,25 +45,17 @@
   </Commands>
 
   <CommandPlacements>
-    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartGroup" priority="0x0000">
-      <Parent guid="RestartVisualStudioCommandSet" id="YannsEssentialsToolbar" />
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartGroup" priority="0x9000">
+      <Parent guid="YannsEssentialsCommandSet" id="YannsEssentialsToolbar" />
     </CommandPlacement>
 
-    
-    <CommandPlacement guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" priority="0x0000">
-      <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x9000">
+      <Parent guid="YannsEssentialsCommandSet" id="YannsEssentialsMenu" />
     </CommandPlacement>
 
-    <CommandPlacement guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" priority="0x0000">
-      <Parent guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" />
-    </CommandPlacement>
 
-    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x0000">
-      <Parent guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" />
-    </CommandPlacement>
-
-    
-    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartDropDown" priority="0x0500">
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartDropDown" priority="0x0000">
       <Parent guid="RestartVisualStudioCommandSet" id="RestartGroup" />
     </CommandPlacement>
 
@@ -93,10 +69,6 @@
     <GuidSymbol name="RestartVisualStudioPackage" value="{6359DA17-6477-4E9C-8E73-7D05EA8A33A1}" />
 
     <GuidSymbol name="RestartVisualStudioCommandSet" value="{4EAC4E23-4909-4DAC-9D6E-819BDC861480}">
-      <IDSymbol name="YannsEssentialsToolbar" value="0x4000" />
-
-      <IDSymbol name="CodeEditorGroup" value="0x0000" />
-      <IDSymbol name="CodeEditorMenu" value="0x0001" />
 
       <IDSymbol name="RestartGroup" value="0x0100" />
       <IDSymbol name="RestartDropDown" value="0x0101" />

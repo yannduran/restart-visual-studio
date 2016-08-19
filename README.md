@@ -2,10 +2,10 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ghwvajcd2wifg4cm/branch/develop?svg=true)](https://ci.appveyor.com/project/YannDuran/restart-visual-studio/branch/develop)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Get the [CI build](http://vsixgallery.com/extension/YD.RestartVisualStudio/).
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/ccdafa1f-0f4c-4d9b-afff-a53d30ec966a)
+, or get the [CI build](http://vsixgallery.com/extension/YD.RestartVisualStudio/).
 
-<!------------------------------------------->
+---------------------------------------
 
 **The easiest and simplest way of restarting Visual Studio (both normal and as admin)**.
 

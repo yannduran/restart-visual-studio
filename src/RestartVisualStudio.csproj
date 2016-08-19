@@ -67,8 +67,26 @@
     <Compile Include="source.extension.cs">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Compile>
+    <Compile Include="YannsEssentials.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YannsEssentials.vsct</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\CHANGELOG.html">
+      <Link>Resources\CHANGELOG.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\LICENSE">
+      <Link>Resources\LICENSE</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="YannsEssentials.vsct">
+      <Generator>VsctGenerator</Generator>
+      <LastGenOutput>YannsEssentials.cs</LastGenOutput>
+    </Content>
     <None Include="packages.config" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -83,6 +101,11 @@
       <LastGenOutput>RestartVisualStudio.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </VSCTCompile>
+    <Content Include="..\README.html">
+      <Link>Resources\README.html</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\package.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>

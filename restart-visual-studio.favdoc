@@ -1,76 +1,121 @@
 <?xml version="1.0"?>
 <Favorites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <folders />
-  <favorites>
-    <Favorite>
-      <name>Github Repo</name>
-      <absolutePath>https://github.com/yannduran/restart-visual-studio</absolutePath>
-      <viewKind>External Document</viewKind>
-    </Favorite>
-    <Favorite>
-      <name>Github Wiki</name>
-      <absolutePath>https://github.com/yannduran/restart-visual-studio/wiki</absolutePath>
-      <viewKind>External Document</viewKind>
-    </Favorite>
-    <Favorite>
-      <name>Github.io Page</name>
-      <absolutePath>http://yannduran.github.io/restart-visual-studio</absolutePath>
-      <viewKind>External Document</viewKind>
-    </Favorite>
-    <Favorite>
-      <name>Appveyor Project</name>
-      <absolutePath>https://ci.appveyor.com/project/YannDuran/restart-visual-studio</absolutePath>
-      <viewKind>External Document</viewKind>
-    </Favorite>
-    <Favorite>
-      <name>VSIX Gallery</name>
-      <absolutePath>http://vsixgallery.com/extension/YD.RestartVisualStudio/</absolutePath>
-      <viewKind>External Document</viewKind>
-    </Favorite>
-    <Favorite>
-      <name>Package</name>
-      <path>src\restartvisualstudio.pkg.cs</path>
-      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.pkg.cs</absolutePath>
-      <position>
-        <line>25</line>
-        <column>13</column>
-        <lineHash>ZNJGqMGQN2eVmC2DFd4XQMZLdVrsk1D4Dw5bHzLputI=</lineHash>
-      </position>
-    </Favorite>
-    <Favorite>
-      <name>vsixmanifest</name>
-      <path>src\source.extension.vsixmanifest</path>
-      <absolutePath>D:\dev\yd\restart-visual-studio\src\source.extension.vsixmanifest</absolutePath>
-    </Favorite>
-    <Favorite>
-      <name>CHANGELOG</name>
-      <path>CHANGELOG.md</path>
-      <absolutePath>D:\dev\yd\restart-visual-studio\CHANGELOG.md</absolutePath>
-      <position>
-        <line>19</line>
-        <column>45</column>
-        <lineHash>YjQzlRcrKz/DXhdh34i3B3hL0j9ghzQJ20TW08zhoys=</lineHash>
-      </position>
-    </Favorite>
-    <Favorite>
-      <name>README</name>
-      <path>README.md</path>
-      <absolutePath>D:\dev\yd\restart-visual-studio\README.md</absolutePath>
-      <position>
-        <line>24</line>
-        <column>1</column>
-        <lineHash>wmMzQghKPpfHYPr9TF61/eUaSocz7CkWKTveVyXLDbo=</lineHash>
-      </position>
-    </Favorite>
-    <Favorite>
-      <name>vsct</name>
-      <path>src\restartvisualstudio.vsct</path>
-      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.vsct</absolutePath>
-      <position>
-        <line>66</line>
-        <column>52</column>
-        <lineHash>nCGQUONQCXn6e1sTwZKmuDQGdtFsfs6lwDqHNnKmxB4=</lineHash>
-      </position>
-    </Favorite>
-  </favorites>
+  <folders>
+    <Folder>
+      <name>Github</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>Repo</name>
+          <absolutePath>https://github.com/yannduran/restart-visual-studio</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+        <Favorite>
+          <name>Wiki</name>
+          <absolutePath>https://github.com/yannduran/restart-visual-studio/wiki</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+        <Favorite>
+          <name>Page</name>
+          <absolutePath>http://yannduran.github.io/restart-visual-studio</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+      </favorites>
+    </Folder>
+    <Folder>
+      <name>Solution</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>CHANGELOG</name>
+          <path>CHANGELOG.md</path>
+          <absolutePath>D:\dev\yd\restart-visual-studio\CHANGELOG.md</absolutePath>
+          <position>
+            <line>19</line>
+            <column>45</column>
+            <lineHash>YjQzlRcrKz/DXhdh34i3B3hL0j9ghzQJ20TW08zhoys=</lineHash>
+          </position>
+        </Favorite>
+        <Favorite>
+          <name>README</name>
+          <path>README.md</path>
+          <absolutePath>D:\dev\yd\restart-visual-studio\README.md</absolutePath>
+          <position>
+            <line>24</line>
+            <column>1</column>
+            <lineHash>wmMzQghKPpfHYPr9TF61/eUaSocz7CkWKTveVyXLDbo=</lineHash>
+          </position>
+        </Favorite>
+        <Favorite>
+          <name>appveyor.yml</name>
+          <path>appveyor.yml</path>
+          <absolutePath>D:\dev\yd\restart-visual-studio\appveyor.yml</absolutePath>
+          <position>
+            <line>5</line>
+            <column>8</column>
+            <lineHash>570oxLGscGkMAJ3GIjOlahvfWfYZF7Cmtk/Tjs5wXBE=</lineHash>
+          </position>
+        </Favorite>
+      </favorites>
+    </Folder>
+    <Folder>
+      <name>Project</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>Package</name>
+          <path>src\restartvisualstudio.pkg.cs</path>
+          <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.pkg.cs</absolutePath>
+          <position>
+            <line>25</line>
+            <column>13</column>
+            <lineHash>ZNJGqMGQN2eVmC2DFd4XQMZLdVrsk1D4Dw5bHzLputI=</lineHash>
+          </position>
+        </Favorite>
+        <Favorite>
+          <name>vsixmanifest</name>
+          <path>src\source.extension.vsixmanifest</path>
+          <absolutePath>D:\dev\yd\restart-visual-studio\src\source.extension.vsixmanifest</absolutePath>
+        </Favorite>
+        <Favorite>
+          <name>vsct</name>
+          <path>src\restartvisualstudio.vsct</path>
+          <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.vsct</absolutePath>
+          <position>
+            <line>66</line>
+            <column>52</column>
+            <lineHash>nCGQUONQCXn6e1sTwZKmuDQGdtFsfs6lwDqHNnKmxB4=</lineHash>
+          </position>
+        </Favorite>
+      </favorites>
+    </Folder>
+    <Folder>
+      <name>CI</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>Appveyor</name>
+          <absolutePath>https://ci.appveyor.com/project/YannDuran/restart-visual-studio</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+        <Favorite>
+          <name>VSIX Gallery</name>
+          <absolutePath>http://vsixgallery.com/extension/YD.RestartVisualStudio/</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+      </favorites>
+    </Folder>
+    <Folder>
+      <name>Extension</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>Gallery Page</name>
+          <absolutePath>https://visualstudiogallery.msdn.microsoft.com/ccdafa1f-0f4c-4d9b-afff-a53d30ec966a</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+      </favorites>
+    </Folder>
+  </folders>
+  <favorites />
 </Favorites>
