@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Favorites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <folders />
+  <favorites>
+    <Favorite>
+      <name>Github Repo</name>
+      <absolutePath>https://github.com/yannduran/missing-solution-commands</absolutePath>
+      <viewKind>External Document</viewKind>
+    </Favorite>
+    <Favorite>
+      <name>Github.io Page</name>
+      <absolutePath>http://yannduran.github.io/missing-solution-commands</absolutePath>
+      <viewKind>External Document</viewKind>
+    </Favorite>
+    <Favorite>
+      <name>Appveyor Project</name>
+      <absolutePath>https://ci.appveyor.com/project/YannDuran/missing-solution-commands</absolutePath>
+      <viewKind>External Document</viewKind>
+    </Favorite>
+    <Favorite>
+      <name>vsixmanifest</name>
+      <path>src\source.extension.vsixmanifest</path>
+      <absolutePath>D:\dev\yd\restart-visual-studio\src\source.extension.vsixmanifest</absolutePath>
+    </Favorite>
+    <Favorite>
+      <name>CHANGELOG</name>
+      <path>CHANGELOG.md</path>
+      <absolutePath>D:\dev\yd\restart-visual-studio\CHANGELOG.md</absolutePath>
+      <position>
+        <line>19</line>
+        <column>45</column>
+        <lineHash>YjQzlRcrKz/DXhdh34i3B3hL0j9ghzQJ20TW08zhoys=</lineHash>
+      </position>
+    </Favorite>
+    <Favorite>
+      <name>README</name>
+      <path>README.md</path>
+      <absolutePath>D:\dev\yd\restart-visual-studio\README.md</absolutePath>
+      <position>
+        <line>24</line>
+        <column>1</column>
+        <lineHash>wmMzQghKPpfHYPr9TF61/eUaSocz7CkWKTveVyXLDbo=</lineHash>
+      </position>
+    </Favorite>
+    <Favorite>
+      <name>Package</name>
+      <path>src\restartvisualstudio.pkg.cs</path>
+      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.pkg.cs</absolutePath>
+      <position>
+        <line>25</line>
+        <column>13</column>
+        <lineHash>ZNJGqMGQN2eVmC2DFd4XQMZLdVrsk1D4Dw5bHzLputI=</lineHash>
+      </position>
+    </Favorite>
+    <Favorite>
+      <name>vsct</name>
+      <path>src\restartvisualstudio.vsct</path>
+      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.vsct</absolutePath>
+      <position>
+        <line>66</line>
+        <column>52</column>
+        <lineHash>nCGQUONQCXn6e1sTwZKmuDQGdtFsfs6lwDqHNnKmxB4=</lineHash>
+      </position>
+    </Favorite>
+  </favorites>
+</Favorites>

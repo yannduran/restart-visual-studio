@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+
+  <Commands package="RestartVisualStudioPackage">
+    <Groups>
+      <Group guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" priority="0x0000" />
+
+      <Group guid="RestartVisualStudioCommandSet" id="RestartGroup" priority="0x0000" />
+      <Group guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x0000" />
+    </Groups>
+
+    <Menus>
+      <Menu guid="RestartVisualStudioCommandSet" id="YannsEssentialsToolbar" type="Toolbar" priority="0x9999">
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>Yann's Essentials</ButtonText>
+        </Strings>
+      </Menu>
+
+      <Menu guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" type="Menu" priority="0x0700">
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>Yann's Essentials</ButtonText>
+        </Strings>
+      </Menu>
+
+      <Menu guid="RestartVisualStudioCommandSet" id="RestartDropDown" type="MenuController" priority="0x0000">
+        <Strings>
+          <ButtonText>Restart Commands</ButtonText>
+        </Strings>
+      </Menu>
+
+    </Menus>
+
+    <Buttons>
+      <Button guid="RestartVisualStudioCommandSet" id="RestartNormalCommand" type="Button" priority="0x0001">
+        <Parent guid="RestartVisualStudioCommandSet" id="RestartCommands" />
+        <Icon guid="ImageCatalogGuid" id="VisualStudio"/>
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <CommandFlag>FixMenuController</CommandFlag>
+        <Strings>
+          <ButtonText>Restart Visual Studio</ButtonText>
+        </Strings>
+      </Button>
+
+      <Button guid="RestartVisualStudioCommandSet" id="RestartElevatedCommand" type="Button" priority="0x0001">
+        <Parent guid="RestartVisualStudioCommandSet" id="RestartCommands" />
+        <Icon guid="ImageCatalogGuid" id="VisualStudioExpressWindowsPhone"/>
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>DynamicVisibility</CommandFlag>
+        <Strings>
+          <ButtonText>Restart Visual Studio</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <CommandPlacements>
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartGroup" priority="0x0000">
+      <Parent guid="RestartVisualStudioCommandSet" id="YannsEssentialsToolbar" />
+    </CommandPlacement>
+
+    
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" priority="0x0000">
+      <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+    </CommandPlacement>
+
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" priority="0x0000">
+      <Parent guid="RestartVisualStudioCommandSet" id="CodeEditorGroup" />
+    </CommandPlacement>
+
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x0000">
+      <Parent guid="RestartVisualStudioCommandSet" id="CodeEditorMenu" />
+    </CommandPlacement>
+
+    
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartDropDown" priority="0x0500">
+      <Parent guid="RestartVisualStudioCommandSet" id="RestartGroup" />
+    </CommandPlacement>
+
+    <CommandPlacement guid="RestartVisualStudioCommandSet" id="RestartCommands" priority="0x0000">
+      <Parent guid="RestartVisualStudioCommandSet" id="RestartDropDown" />
+    </CommandPlacement>
+
+  </CommandPlacements>
+
+  <Symbols>
+    <GuidSymbol name="RestartVisualStudioPackage" value="{6359DA17-6477-4E9C-8E73-7D05EA8A33A1}" />
+
+    <GuidSymbol name="RestartVisualStudioCommandSet" value="{4EAC4E23-4909-4DAC-9D6E-819BDC861480}">
+      <IDSymbol name="YannsEssentialsToolbar" value="0x4000" />
+
+      <IDSymbol name="CodeEditorGroup" value="0x0000" />
+      <IDSymbol name="CodeEditorMenu" value="0x0001" />
+
+      <IDSymbol name="RestartGroup" value="0x0100" />
+      <IDSymbol name="RestartDropDown" value="0x0101" />
+      <IDSymbol name="RestartCommands" value="0x0102" />
+
+      <IDSymbol name="RestartNormalCommand" value="0x0105" />
+      <IDSymbol name="RestartElevatedCommand" value="0x106" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
