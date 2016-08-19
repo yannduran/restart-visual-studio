@@ -1,0 +1,46 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable">
+
+  <Commands>
+    <Groups>
+      <Group guid="YannsEssentialsCommandSet" id="CodeEditorGroup" priority="0x0000" />
+    </Groups>
+
+    <Menus>
+      <Menu guid="YannsEssentialsCommandSet" id="YannsEssentialsToolbar" type="Toolbar" priority="0x0000">
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>Yann's Essentials</ButtonText>
+        </Strings>
+      </Menu>
+
+      <Menu guid="YannsEssentialsCommandSet" id="YannsEssentialsMenu" type="Menu" priority="0x0000">
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>Yann's Essentials</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+  </Commands>
+
+  <CommandPlacements>
+    <CommandPlacement guid="YannsEssentialsCommandSet" id="CodeEditorGroup" priority="0x0000">
+      <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+    </CommandPlacement>
+
+    <CommandPlacement guid="YannsEssentialsCommandSet" id="YannsEssentialsMenu" priority="0x0000">
+      <Parent guid="YannsEssentialsCommandSet" id="CodeEditorGroup" />
+    </CommandPlacement>
+  </CommandPlacements>
+
+  <Symbols>
+    <GuidSymbol name="YannsEssentialsCommandSet" value="{3e73125a-ed32-4e5e-b613-e5371da764aa}">
+      <IDSymbol name="CodeEditorGroup" value="0x0000" />
+
+      <IDSymbol name="YannsEssentialsToolbar" value="0x0100" />
+      <IDSymbol name="YannsEssentialsMenu" value="0x0102" />
+    </GuidSymbol>
+  </Symbols>
+
+</CommandTable>

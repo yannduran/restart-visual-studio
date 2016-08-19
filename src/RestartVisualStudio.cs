@@ -22,9 +22,6 @@ namespace RestartVisualStudio
     /// </summary>
     internal sealed partial class PackageIds
     {
-        public const int YannsEssentialsToolbar = 0x4000;
-        public const int CodeEditorGroup = 0x0000;
-        public const int CodeEditorMenu = 0x0001;
         public const int RestartGroup = 0x0100;
         public const int RestartDropDown = 0x0101;
         public const int RestartCommands = 0x0102;
