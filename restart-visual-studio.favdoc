@@ -23,6 +23,21 @@
       <viewKind>External Document</viewKind>
     </Favorite>
     <Favorite>
+      <name>VSIX Gallery</name>
+      <absolutePath>http://vsixgallery.com/extension/YD.RestartVisualStudio/</absolutePath>
+      <viewKind>External Document</viewKind>
+    </Favorite>
+    <Favorite>
+      <name>Package</name>
+      <path>src\restartvisualstudio.pkg.cs</path>
+      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.pkg.cs</absolutePath>
+      <position>
+        <line>25</line>
+        <column>13</column>
+        <lineHash>ZNJGqMGQN2eVmC2DFd4XQMZLdVrsk1D4Dw5bHzLputI=</lineHash>
+      </position>
+    </Favorite>
+    <Favorite>
       <name>vsixmanifest</name>
       <path>src\source.extension.vsixmanifest</path>
       <absolutePath>D:\dev\yd\restart-visual-studio\src\source.extension.vsixmanifest</absolutePath>
@@ -45,16 +60,6 @@
         <line>24</line>
         <column>1</column>
         <lineHash>wmMzQghKPpfHYPr9TF61/eUaSocz7CkWKTveVyXLDbo=</lineHash>
-      </position>
-    </Favorite>
-    <Favorite>
-      <name>Package</name>
-      <path>src\restartvisualstudio.pkg.cs</path>
-      <absolutePath>d:\dev\yd\restart-visual-studio\src\restartvisualstudio.pkg.cs</absolutePath>
-      <position>
-        <line>25</line>
-        <column>13</column>
-        <lineHash>ZNJGqMGQN2eVmC2DFd4XQMZLdVrsk1D4Dw5bHzLputI=</lineHash>
       </position>
     </Favorite>
     <Favorite>
