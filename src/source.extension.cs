@@ -11,7 +11,7 @@ namespace RestartVisualStudio
         public const string Name = "Yann's Essentials - Restart Visual Studio";
         public const string Description = "The simplest way of restarting VIsual Studio on demand (normal and elevated).";
         public const string Language = "en-US";
-        public const string Version = "0.1.1";
+        public const string Version = "0.2";
         public const string Author = "Yann Duran";
         public const string Tags = "";
     }
