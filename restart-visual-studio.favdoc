@@ -46,6 +46,16 @@
             <lineHash>wmMzQghKPpfHYPr9TF61/eUaSocz7CkWKTveVyXLDbo=</lineHash>
           </position>
         </Favorite>
+        <Favorite>
+          <name>appveyor.yml</name>
+          <path>appveyor.yml</path>
+          <absolutePath>D:\dev\yd\restart-visual-studio\appveyor.yml</absolutePath>
+          <position>
+            <line>5</line>
+            <column>8</column>
+            <lineHash>570oxLGscGkMAJ3GIjOlahvfWfYZF7Cmtk/Tjs5wXBE=</lineHash>
+          </position>
+        </Favorite>
       </favorites>
     </Folder>
     <Folder>
@@ -91,6 +101,17 @@
         <Favorite>
           <name>VSIX Gallery</name>
           <absolutePath>http://vsixgallery.com/extension/YD.RestartVisualStudio/</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+      </favorites>
+    </Folder>
+    <Folder>
+      <name>Extension</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>Gallery Page</name>
+          <absolutePath>https://visualstudiogallery.msdn.microsoft.com/ccdafa1f-0f4c-4d9b-afff-a53d30ec966a</absolutePath>
           <viewKind>External Document</viewKind>
         </Favorite>
       </favorites>
